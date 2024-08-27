@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: #22231b;
+}
+
+.card {
+    width: 90%;
+    max-width: 435px;
+    background: linear-gradient(135deg, rgb(71, 209, 214), rgb(32 15 137 / 51%));
+    color: rgb(255, 255, 255);
+    margin: 50px auto;
+    border-radius: 20px;
+    padding: 21px 35px;
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555; 
+    padding: 20px 26px;
+    height: 44px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    min-width: 200px; 
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 46px;
+    height: 44px;
+    cursor: pointer;
+
+}
+.search button img {
+    width: 30px;
+}
+.weather{
+    font-size: 13px;
+    margin: 15px;
+    padding-right: 10px;
+}
+.temp{
+    margin:5px 0px 5px 0px;
+    font-size: 75px;
+    font-weight: 550;
+}
+.city{
+    font-size:40px;
+    font-weight: 450;
+    color: #de6373;
+    font-style: oblique;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity , .wind{
+    margin-bottom: 5px;
+    font-size: 26px;
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-top: 14px;
+    margin-left: 7px;
+    font-size: 15px;
+    display: none;
+}
+.colour{
+   color:  #d2d318;;
+}
